@@ -1,4 +1,4 @@
-package com.jy;
+﻿package com.jy;
 
 public class AdapterPattern {
 
@@ -10,7 +10,7 @@ public class AdapterPattern {
 		Player guard = new Guard("McGrady");
 		guard.defense();
 
-		Player centerForward = new Adapter("Ҧ��");
+		Player centerForward = new Adapter("姚明");
 		centerForward.attach();
 		centerForward.defense();
 	}

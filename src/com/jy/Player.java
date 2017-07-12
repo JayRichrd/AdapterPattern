@@ -1,7 +1,7 @@
-package com.jy;
+ï»¿package com.jy;
 
 public abstract class Player {
-	// ĞÕÃû
+	// å§“å
 	protected String name;
 
 	public Player(String name) {
@@ -9,9 +9,9 @@ public abstract class Player {
 		this.name = name;
 	}
 
-	// ½ø¹¥
+	// è¿›æ”»
 	public abstract void attach();
 
-	// ·ÀÊØ
+	// é˜²å®ˆ
 	public abstract void defense();
 }

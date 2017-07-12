@@ -1,4 +1,4 @@
-package com.jy;
+﻿package com.jy;
 
 public class Guard extends Player {
 

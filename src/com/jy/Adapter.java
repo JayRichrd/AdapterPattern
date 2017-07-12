@@ -1,4 +1,4 @@
-package com.jy;
+锘縫ackage com.jy;
 
 public class Adapter extends Player {
 	private CenterForwardCh centerForwardCh = new CenterForwardCh();
@@ -10,13 +10,13 @@ public class Adapter extends Player {
 
 	@Override
 	public void attach() {
-		// 委托方式调用
+		// 濮旀墭鏂瑰紡璋冪敤
 		centerForwardCh.jingong();
 	}
 
 	@Override
 	public void defense() {
-		// 委托方式调用
+		// 濮旀墭鏂瑰紡璋冪敤
 		centerForwardCh.fangshou();
 	}
 

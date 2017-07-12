@@ -1,4 +1,4 @@
-package com.jy;
+锘縫ackage com.jy;
 
 public class CenterForwardCh {
 	private String name;
@@ -16,11 +16,11 @@ public class CenterForwardCh {
 	}
 
 	public void jingong() {
-		System.out.println("中国中锋 " + this.name + " 进攻");
+		System.out.println("涓浗涓攱 " + this.name + " 杩涙敾");
 	}
 
 	public void fangshou() {
-		System.out.println("中国中锋 " + this.name + " 防守");
+		System.out.println("涓浗涓攱 " + this.name + " 闃插畧");
 	}
 
 }
